@@ -1,5 +1,5 @@
 -- set the search path to node2_schema 
-SET search_path TO node2_schema;
+SET search_path TO node1_schema;
 
 -- run the following on postgres_node1
 INSERT INTO foo (a) VALUES (1);
